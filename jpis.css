@@ -1,0 +1,221 @@
+.content{
+    background-color: lightgray;
+    content:counter(list-item);
+}
+.sidebar{
+    background-color: white;
+    animation-name:none;
+    animation-duration: infinite;
+    animation-direction: left;
+    
+}
+.container{
+    container: 60px;
+}
+.hide{
+    display: block;
+    @media only screen and (min-width: 768px) {
+        .hidden-on-large {
+            display: none;
+        }
+}
+background-color: grey;
+
+}
+.round{
+    border-radius: round;
+}
+.text{
+    color: grey;
+
+}
+.bar{
+    background-color: rgb(150, 145, 145);
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.item{
+   
+    padding: 50px ;
+    color: teal;
+    
+    
+}
+.panel{
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    padding: 20px; 
+    background-color: #f9f9f9; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);   
+    font-size: large;
+}
+.animate{
+    opacity:inherit;
+    display: block;
+    @media only screen and (min-width: 768px) {
+        .hidden-on-large {
+            display: none;
+        }
+}
+
+
+}
+#myoverlay{
+    display: none; /* Hide the overlay by default */
+position: fixed; /* Position the overlay relative to the viewport */
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.5);
+}
+#overlay-content {
+    position: absolute; /* Position the content within the overlay */
+    top: 50%; /* Center the content vertically */
+    left: 50%; /* Center the content horizontally */
+    transform: translate(-50%, -50%); /* Center the content exactly */
+    background-color: white; /* Background color of the overlay content */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.circle{
+    width: 500px;
+    height: 100px;
+    background-color: lightgray;
+    border-radius: 10%;
+    margin-right: 50px;
+    opacity:inherit;
+    display: block;
+    @media only screen and (min-width: 768px) {
+        .hidden-on-large {
+            display: none;
+        }
+}
+opacity:var(-50%);
+}
+.button{
+    opacity:inherit;
+    display: block;
+    @media only screen and (min-width: 768px) {
+        .hidden-on-large {
+            display: none;
+        }
+}
+font-size: xx-large;
+color: grey;
+}
+.bottombar{
+    background-color: #333; /* Background color of the bottom bar */
+    color: #fff; /* Text color of the bottom bar */
+    padding: 10px; /* Padding inside the bottom bar */
+    text-align: center; /* Center-align the content */
+    position: fixed; /* Fixed position at the bottom of the viewport */
+    left: 0;
+    top: 0px;
+    width: 100%; 
+    padding: 16px;
+}
+.margin-right{
+    margin-right: 10px;
+}
+.white{
+    background-color: white;
+    margin-right: auto;
+}
+.row-pdding{
+    
+    background-color: grey;
+   
+    border-collapse: collapse;
+  
+    border: 1px;
+    
+    padding: 8px;
+}
+.thrid{
+    container: 50px;
+    margin-bottom: 10px;
+
+}
+.hover{
+    opacity:1 ;
+}
+.whit-con{
+    container: 16px;
+    background-color: white;
+    
+}
+.w3-container-w3-padding-large-w3-grey{
+    container: 40px;
+    padding: large ;
+    
+    background-color: grey;
+
+}
+.w3-row-padding-w3-center-w3-padding-24{
+    
+   
+    border-collapse: collapse;
+  
+    border: 0px;
+    
+    
+    text-align: center;
+    padding: 24px;
+}
+.w3-third-w3-dark-grey{
+    background-color: darkgrey;
+}
+.fa-fa-envelope-w3-xxlarge-w3-text-light-grey{
+    font-size: xx-large;
+    color: lightgrey;
+}
+.w3-third-w3-teal{
+    background-color: teal;
+}
+.fa-fa-map-marker-w3-xxlarge-w3-text-light-grey{
+    font-size: xx-large;
+    color:lightgrey ;
+}
+.fa-fa-phone-w3-xxlarge-w3-text-light-grey{
+    font-size: xx-large;
+    color: lightgrey;
+}
+.w3-opacity{
+    opacity: 1;
+}
+
+.w3-input-w3-border{
+    border: 4px;
+}
+.w3-button-w3-black-w3-margin-bottom{
+    background-color: rgb(251, 248, 248);
+    margin-bottom: 6px;
+}
+.fa-fa-paper-plane-w3-margin-right{
+    margin-right: 4px;
+}
+.w3-container-w3-padding-32-w3-dark-grey{
+    container: 50%;
+    padding: 32px;
+    background-color: darkgrey;
+}
+.mishr{
+    
+    position: absolute;  
+    top: 24.5%;
+    left: 5%;
+    font-family: monospace;
+    font-size: 70px;
+    color: rgb(5, 143, 111);
+   }
+   .contanier{
+       position: relative;
+   }
+   img{
+       width: 50%;
+       height: 20%;
+       opacity: 0.6;
+   }
